@@ -1,0 +1,29 @@
+Identifier: 
+
+Title: Red Nacional de Caminos (RNC) 2018
+
+Description: Proporcionar a las Unidades del Estado y a la ciudadanía una red única de transporte terrestre que integre las carreteras, vialidades y caminos del país, modelada y estructurada con las especificaciones técnicas para Sistemas Inteligentes de Transportes, para determinar rutas en sistemas de información geográfica orientado al análisis de redes de transporte, manteniendo la conectividad con servicios de interconexión como aeropuertos, puertos, estaciones de ferrocarril, así como diversos destinos entre localidades urbanas y rurales además de sitios de interés, entre otros.
+
+Modified: 2019-03-25  
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx
+
+License: Términos de Libre Uso de la Información del INEGI http://www.inegi.org.mx/terminos/terminos_info.aspx
+
+DataDictionary:
+http://
+
+Keyword: "Ruta", "Ruteo", "Carretera", "Camino", "Terracería", "Vialidad", "Número de Carretera",  "Sitio de Interés", "Localidad", "Vías de Transporte"
+
+ContactPoint: Lic. José de Jesús Esquivel de la Rosa, 01800 111 4634
+
+Temporal: 2012-2018 
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Anualmente
+
+Distribution: https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463674641
+

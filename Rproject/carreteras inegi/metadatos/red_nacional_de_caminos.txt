@@ -1,0 +1,909 @@
+SECCIÓN 1. Identificación del conjunto de datos espaciales o producto:
+
+1.1 Título del conjunto de datos espaciales o producto: Red Nacional de Caminos (RNC)
+
+1.2 Propósito: Proporcionar a las Unidades del Estado y a la ciudadanía una red única de transporte terrestre que integre las carreteras, vialidades y caminos del país, modelada y estructurada con las especificaciones técnicas para Sistemas Inteligentes de Transportes, para determinar rutas en sistemas de información geográfica orientado al análisis de redes de transporte, manteniendo la conectividad con servicios de interconexión como aeropuertos, puertos, estaciones de ferrocarril, así como diversos destinos entre localidades urbanas y rurales además de sitios de interés, entre otros.
+
+1.3 Descripción del conjunto de datos espaciales o producto: Es una red vial modelada a gran detalle y soportada con el estándar internacional ISO 14825:2011 Intelligent Transport Systems -- Geographic Data Files -- GDF5.0, la cual integra los elementos necesarios para ruteo, que conforman las vías de comunicación que permiten el tránsito de vehículos automotores carreteras, terracerías, brechas, principales vialidades en las áreas urbanas), además incorpora infraestructura asociada (túneles, puentes, plazas de cobro, marcas de kilometraje), así como infraestructura de otros medios de transporte (transbordadores, aeropuertos, puertos, estaciones de ferrocarril), entre otros  sitios de interés, como: estaciones de abastecimiento de combustible, instalaciones de transporte, sitios de inspección, sitios atractivos para el turismo, etc.
+
+1.4 Idioma del conjunto de datos espaciales o producto: ES - Español.
+
+1.5 Categoría del tema del conjunto de datos espaciales o producto: 
+
+     1.5.1 Tema principal del conjunto de datos espaciales o producto: 11. Localización: Información posicional y servicios.  
+
+     1.5.1 Tema principal del conjunto de datos espaciales o producto: 14. Estructura: Construcciones hechas por el hombre. 
+
+     1.5.1 Tema principal del conjunto de datos espaciales o producto: 15. Transportación: Medios y ayudas para transportar personas o mercancías. 
+
+     1.5.1 Tema principal del conjunto de datos espaciales o producto: 16. Comunicación de servicios: Energía, agua y sistemas de desecho, infraestructura de comunicaciones y servicios. 
+
+     1.5.2 Grupo de datos del conjunto de datos espaciales o producto: 4. Grupo de datos topográficos: Subdivisión de la Infraestructura de Datos Espaciales de México que contiene elementos que caracterizan parte o toda la superficie  terrestre, constituidos por datos referidos a los componentes físicos del paisaje y de los correspondientes a objetos de infraestructura humana. Particularizan un terreno en su configuración superficial, permitiendo la identificación de la disposición y forma de sus partes y lo distinguen de otros semejantes.
+
+1.6 Palabra clave: Destino
+
+1.7 Tipo: 2. Lugar: La palabra clave identifica un lugar o ubicación cubierto por el conjunto de datos espaciales o producto.
+
+1.6 Palabra clave: Ruteo
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Carretera
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Carreteras Pavimentadas
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Terracería
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Número de Carretera
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Pavimentada
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Sector Comunicaciones y Transportes
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Vialidad
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.6 Palabra clave: Vías de Transporte
+
+1.7 Tipo: 5. Tema: La palabra clave que identifica un tema o materia particular.
+
+1.8 Nombre del tesauro: Diccionario de Datos de la Red Nacional de Caminos 
+
+1.9 Edición: 2018
+
+1.10 Forma de presentación de los datos espaciales:   3. Imagen digital: Imagen semejante a cosas construidas por el hombre, objetos y actividades adquiridas por medio de la percepción visual o por medio de sensores en cualquier segmento del espectro electromagnético (infrarrojo térmico, radar de alta resolución) y almacenados en formato digital.
+
+1.10 Forma de presentación de los datos espaciales:   5. Mapa digital: Mapa representado en formato raster o vector.
+
+1.11 Enlace en línea:
+
+     1.11.1 URL del recurso: http://www.sct.gob.mx/; http://www.inegi.org.mx/; http://www.imt.mx/ 
+
+     1.11.2 Descripción del acceso al recurso: Sitios institucionales de la Secretaría de Comunicaciones y Transportes (SCT), Instituto Nacional de Estadística y Geografía (INEGI) y del Instituto Mexicano del Transporte.
+
+1.12 Frecuencia de mantenimiento y actualización:   7. Anualmente: Los datos se actualizan cada año.
+
+1.13 Conjunto de caracteres:   6. 8859parte1: ISO/IEC 8859-1, Tecnologías de la Información - Conjuntos de caracteres gráficos codificados de 8-bit por byte - Parte 1: Alfabeto Latino No.1.
+
+1.14 Nombre del archivo gráfico:  rnc_imagen.jpg
+
+1.15 Uso específico: USO 1. La SCT elaborará los atlas carreteros basándose en la información de la RNC, aplicando procesos de generalización acordes a las escalas de representación, obteniéndose productos impresos y digitales para el uso de los distintos usuarios nacionales e internacionales.
+
+USO 2. El INEGI hará uso de la RNC en la generación de mapas a diferentes escalas, en Mapa Base a través de servicios WMS para Sistemas de Información Geográfica y para actualizar las cartas topográficas, aplicando para ello procesos de generalización acordes a las escalas de representación, obteniéndose productos vectoriales y digitales para el uso de los distintos usuarios nacionales e internacionales. 
+
+USO 3 (general). Así mismo, debido al detalle y estructuración de la información enfocada a la obtención de rutas, su uso se multiplicará permitiendo planificar la logística de traslado de mercancías, generación de rutas para atención y prevención de desastres, seguimiento y control de la infraestructura carretera, planeación de operativos masivos (censos y encuestas), registro de estadísticas e índices relacionados a la infraestructura carretera del país, etc.
+
+
+SECCIÓN 2. Fechas relacionadas con el conjunto de datos espaciales o producto:
+
+2.1 Fechas y eventos:
+
+     2.1.1 Fecha de referencia del conjunto de datos espaciales o producto: 2014-02-03
+
+     2.1.2 Tipo de fecha: 1. Creación: Indicador  de la fecha que especifica cuando fue creado el recurso.
+
+     2.1.1 Fecha de referencia del conjunto de datos espaciales o producto: 2019-03-18
+
+     2.1.2 Tipo de fecha: 3. Revisión: Identificador de la fecha que especifica cuando el recurso fue examinado o re-examinado y mejorado o corregido.
+
+     2.1.1 Fecha de referencia del conjunto de datos espaciales o producto: 2019-03-25
+
+     2.1.2 Tipo de fecha: 2. Publicación: Indicador de la fecha que especifica cuando el recurso fue publicado.
+
+2.2 Fechas de los insumos tomados para la elaboración del producto o conjunto de datos espaciales:
+
+     2.2.1 Fecha de creación de los insumos: 2009-06-01
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Imágenes de Satélite SPOT 2009
+
+     2.2.1 Fecha de creación de los insumos: 2009-12-31
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Inventario de Puertos 2009 de la CGPMM de la SCT
+
+     2.2.1 Fecha de creación de los insumos: 2010-06-01
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Ejes de calle de Marco Geoestadístico versión 5.0.
+
+     2.2.1 Fecha de creación de los insumos: 2010-12-31
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Inventario de Puertos y Capitanías 2010 de la DGDC de la SCT
+
+     2.2.1 Fecha de creación de los insumos: 2011-06-01
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Inventario de Puertos
+
+     2.2.1 Fecha de creación de los insumos: 2011-11-30
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Conjunto Nacional de Carreteras y Vialidades edición 1.0.
+
+     2.2.1 Fecha de creación de los insumos: 2011-12-31
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Plataformas Logísticas y Puertos Marítimos 2011 de la DGDC de SCT
+
+     2.2.1 Fecha de creación de los insumos: 2012-06-01
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Imágenes de Satélite SPOT no ortorrectificadas.
+
+     2.2.1 Fecha de creación de los insumos: 2012-06-01
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Atlas de Carreteras SCT por Entidad Federativa
+
+     2.2.1 Fecha de creación de los insumos: 2012-12-31
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Imágenes de Satélite SPOT 5 (2008-2012)
+
+     2.2.1 Fecha de creación de los insumos: 2016-06-30
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Localidades de Integración Territorial de MGN 2016
+
+     2.2.1 Fecha de creación de los insumos: 2016-12-02
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Imágenes SPOT 6 2013-2016
+
+     2.2.1 Fecha de creación de los insumos: 2016-12-31
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Plataformas Logísticas y Puertos Marítimos 2011 de la DGDC de la SCT
+
+     2.2.1 Fecha de creación de los insumos: 2016-12-31
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Ejes de calle de Cartografía Geoestadística Junio 2016
+
+     2.2.1 Fecha de creación de los insumos: 2017-12-31
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Carta topográfica escala 1:50000 (temporalidad por conjunto digital)
+
+     2.2.1 Fecha de creación de los insumos: 2018-01-01
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Libro de Datos Viales SCT 2018
+
+     2.2.1 Fecha de creación de los insumos: 2018-02-19
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Atlas SCT por Entidad Federativa 2014
+
+     2.2.1 Fecha de creación de los insumos: 2018-09-30
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Imágenes GeoEye 2011-2018
+
+     2.2.1 Fecha de creación de los insumos: 2018-11-30
+
+     2.2.2 Fecha de inicio de verificación de campo: 
+
+     2.2.3 Fecha final de verificación de campo: 
+
+     2.2.4 Nombre del insumo: Servicio Global Base Map de Digital Globe con imágenes World View 1 y 2, Quick Bird
+
+SECCIÓN 3. Unidad del estado responsable del conjunto de datos espaciales o producto:
+
+3.1 Nombre de la persona de contacto: Lic. José de Jesús Esquivel de la Rosa.
+
+3.2 Nombre de la organización: Instituto Nacional de Estadística y Geografía - INEGI.
+
+3.3 Puesto del contacto: Subdirector de Atención a Usuarios.
+
+3.4 Teléfono: (449)9105300 Ext. 5301. Lada 01 800 111 46 34 (sin costo).
+
+3.5 Fax: 
+
+3.6 Dirección: Avenida Héroe de Nacozari Sur 2301. Fraccionamiento Jardines del Parque, entre Calle INEGI, Avenida del Lago y Avenida Paseo de las Garzas.
+
+3.7 Ciudad: Aguascalientes.
+
+3.8 Área administrativa: Aguascalientes.
+
+3.9 Código postal: 20276.
+
+3.10 País: México.
+
+3.11 Dirección de correo electrónico del contacto: atencion.usuarios@inegi.org.mx
+
+3.12 Enlace en línea (dirección de Internet de referencia): http://www.inegi.org.mx/
+
+3.13 Rol:   5. Distribuidor: Parte que distribuye el recurso.
+
+
+3.1 Nombre de la persona de contacto: Mtro. Miguel Ángel Backhoff Pohls.
+
+3.2 Nombre de la organización: Instituto Mexicano del Transporte, IMT.
+
+3.3 Puesto del contacto: Jefe de la Unidad de Sistemas de Información Geoespacial.
+
+3.4 Teléfono: (442)216777
+
+3.5 Fax: 
+
+3.6 Dirección: Km 12+000, Carretera Estatal No. 431 "El Colorado Galindo", Parque Tecnológico San Fandila, Municipio Pedro Escobedo, Querétaro.
+
+3.7 Ciudad: Querétaro.
+
+3.8 Área administrativa: Coordinación de Ingeniería Portuaria y Sistemas Geoespaciales.
+
+3.9 Código postal:  
+
+3.10 País: México.
+
+3.11 Dirección de correo electrónico del contacto: 
+
+3.12 Enlace en línea (dirección de Internet de referencia): http://www.imt.mx/
+
+3.13 Rol:   5. Distribuidor: Parte que distribuye el recurso.
+
+
+3.1 Nombre de la persona de contacto: Programador Analista Rubén David Carrasco Esparza.
+
+3.2 Nombre de la organización: Instituto Nacional de Estadística y Geografía - INEGI
+
+3.3 Puesto del contacto: Jefe del Departamento de Análisis Espacial.
+
+3.4 Teléfono: (449)9105300 ext. 1759
+
+3.5 Fax: 
+
+3.6 Dirección: Avenida Héroe de Nacozari Sur 2301, Fraccionamiento Jardines del Parque, entre Calle INEGI, Avenida del Lago y Avenida Paseo de las Garzas.
+
+3.7 Ciudad: Aguascalientes.
+
+3.8 Área administrativa: Aguascalientes.
+
+3.9 Código postal: 20276
+
+3.10 País: México.
+
+3.11 Dirección de correo electrónico del contacto: ruben.carrasco@inegi.org.mx
+
+3.12 Enlace en línea (dirección de Internet de referencia): https://www.inegi.org.mx/
+
+3.13 Rol:   6. Creador: Parte que creó el recurso.
+
+
+3.1 Nombre de la persona de contacto: Lic. J. Trinidad Carrillo Martínez.
+
+3.2 Nombre de la organización: Instituto Nacional de Estadística y Geografía - INEGI
+
+3.3 Puesto del contacto: Director Edición de Información Geográfica
+
+3.4 Teléfono: (449)9105300 ext. 4994
+
+3.5 Fax: 
+
+3.6 Dirección: Avenida Héroe de Nacozari Sur 2301, Fraccionamiento Jardines del Parque, entre Calle INEGI, Avenida del Lago y Avenida Paseo de las Garzas.
+
+3.7 Ciudad: Aguascalientes.
+
+3.8 Área administrativa: Aguascalientes.
+
+3.9 Código postal: 20276
+
+3.10 País: México
+
+3.11 Dirección de correo electrónico del contacto: trinidad.carrillo@inegi.org.mx
+
+3.12 Enlace en línea (dirección de Internet de referencia): https://www.inegi.org.mx/
+
+3.13 Rol:   2. Custodio: Parte que acepta la responsabilidad de los datos y asegura un cuidado apropiado y el mantenimiento del recurso.
+
+
+SECCIÓN 4. Localización geográfica del conjunto de datos espaciales o producto:
+
+4.1 Localización geográfica del conjunto de datos espaciales o producto:
+
+     4.1.1 Coordenada límite al oeste: -122.170416
+
+     4.1.2 Coordenada límite al este: -84.64185
+
+     4.1.3 Coordenada límite al sur: 11.968630
+
+     4.1.4 Coordenada límite al norte: 32.718516
+
+4.2 Tipo de representación espacial: 1. Vector: Los datos vectoriales se utilizan para representar datos espaciales.
+
+SECCIÓN 5. Sistema de referencia:
+
+5.1 Sistema de Referencia Horizontal:
+
+     5.1.1 Coordenadas Geográficas:
+
+          5.1.1.1 Resolución de latitud: 0.00000001
+
+          5.1.1.2 Resolución de longitud: 0.00000001
+
+          5.1.1.3 Unidades de coordenadas geográficas: Grados decimales.
+
+     5.1.2 Coordenadas Planas:
+
+          5.1.2.1 Proyección Cartográfica:
+
+               5.1.2.1.1 Cónica Conforme de Lambert:
+
+                    5.1.2.1.1.1 Paralelo estándar:
+
+                    5.1.2.1.1.2 Longitud del meridiano central:
+
+                    5.1.2.1.1.3 Latitud del origen de proyección:
+
+                    5.1.2.1.1.4 Falso este:
+
+                    5.1.2.1.1.5 Falso norte:
+
+               5.1.2.1.2 Transversa de Mercator:
+
+                    5.1.2.1.2.1 Factor de escala en el meridiano central:
+
+                    5.1.2.1.2.2 Longitud del meridiano central:
+
+                    5.1.2.1.2.3 Latitud del origen de proyección:
+
+                    5.1.2.1.2.4 Falso este:
+
+                    5.1.2.1.2.5 Falso norte:
+
+               5.1.2.1.3 Mercator:
+
+                    5.1.2.1.3.1 Paralelo estándar:
+
+                    5.1.2.1.3.2 Factor de escala en el ecuador:
+
+                    5.1.2.1.3.3 Longitud del meridiano central:
+
+                    5.1.2.1.3.4 Falso este:
+
+                    5.1.2.1.3.5 Falso norte:
+
+               5.1.2.1.4 Transversa Modificada Ejidal:
+
+                    5.1.2.1.4.1 Factor de escala en el meridiano central:
+
+                    5.1.2.1.4.2 Longitud del meridiano central:
+
+                    5.1.2.1.4.3 Latitud del origen de proyección:
+
+                    5.1.2.1.4.4 Falso este:
+
+                    5.1.2.1.4.5 Falso norte:
+
+               5.1.2.1.5 Definición de otra proyección:
+
+          5.1.2.2 Sistema de Coordenadas de Cuadrícula:
+
+               5.1.2.2.1 Universal Transversa de Mercator:
+
+                    5.1.2.2.1.1 Número de zona UTM:
+
+                    5.1.2.2.1.2 Factor de escala en el meridiano central:
+
+                    5.1.2.2.1.3 Longitud del meridiano central:
+
+                    5.1.2.2.1.4 Latitud del origen de proyección:
+
+                    5.1.2.2.1.5 Falso este:
+
+                    5.1.2.2.1.6 Falso norte:
+
+          5.1.2.3 Plana Local:
+
+               5.1.2.3.1 Descripción de la Plana Local:
+
+               5.1.2.3.2 Información de Georreferencia de la Plana Local:
+
+          5.1.2.4 Información de coordenadas planas:
+
+               5.1.2.4.1 Método codificado de coordenada plana:
+
+               5.1.2.4.2 Representación de coordenadas:
+
+                    5.1.2.4.2.1 Resolución de abscisa:
+
+                    5.1.2.4.2.2 Resolución de ordenada:
+
+               5.1.2.4.3 Representación de distancia y rumbo:
+
+                    5.1.2.4.3.1 Resolución de distancia:
+
+                    5.1.2.4.3.2 Resolución de rumbo:
+
+                    5.1.2.4.3.3 Unidades de rumbo:
+
+                    5.1.2.4.3.4 Dirección del rumbo de referencia:
+
+                    5.1.2.4.3.5 Meridiano del rumbo de referencia:
+
+               5.1.2.4.4 Unidades de distancia plana:
+
+     5.1.3 Coordenadas Locales:
+
+          5.1.3.1 Descripción Local:
+
+          5.1.3.2 Información de Georreferenciación Local:
+
+     5.1.4 Modelo geodésico:
+
+5.1.4.1 Nombre del datum horizontal: ITRF08 época 2010.0.
+
+          5.1.4.2 Nombre del elipsoide: Sistema Geodésico de Referencia de 1980 (GRS80).
+
+          5.1.4.3 Semieje mayor: 6378137.0
+
+          5.1.4.4 Factor de denominador de achatamiento: 298.257222101
+
+5.2 Sistema de Referencia Vertical:
+
+     5.2.1 Definición del sistema de altitud:
+
+          5.2.1.1 Nombre del datum de altitud: 
+
+          5.2.1.2 Resolución de altitud: 
+
+          5.2.1.3 Unidades de distancia de altitud: 
+
+          5.2.1.4 Método codificado de altitud:  
+
+     5.2.2 Definición del sistema de profundidad:
+
+          5.2.2.1 Nombre del datum de profundidad: 
+
+          5.2.2.2 Resolución de profundidad: 
+
+          5.2.2.3 Unidades de distancia de profundidad: 
+
+          5.2.2.4 Método codificado de profundidad:  
+
+
+SECCIÓN 6. Calidad de la información:
+
+6.1 Alcance o ámbito:
+
+     6.1.1 Nivel:   5. Conjunto de datos espaciales: Información aplicada al conjunto de datos espaciales.
+
+6.2 Reporte:
+
+     6.2.1 Completitud:
+
+          6.2.1.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.1.1.1 Nombre de la prueba:
+
+               6.2.1.1.2 Descripción de la prueba:
+
+               6.2.1.1.3 Resultado:
+
+                    6.2.1.1.3.1 Resultado cuantitativo:
+
+                         6.2.1.1.3.1.1 Unidad de valor:
+
+                         6.2.1.1.3.1.2 Valor:
+
+     6.2.2 Consistencia lógica:
+
+          6.2.2.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.2.1.1 Nombre de la prueba:
+
+               6.2.2.1.2 Descripción de la prueba:
+
+               6.2.2.1.3 Resultado:
+
+                    6.2.2.1.3.1 Resultado cuantitativo:
+
+                         6.2.2.1.3.1.1 Unidad de valor:
+
+                         6.2.2.1.3.1.2 Valor:
+
+     6.2.3 Exactitud posicional:
+
+          6.2.3.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.3.1.1 Nombre de la prueba:
+
+               6.2.3.1.2 Descripción de la prueba:
+
+               6.2.3.1.3 Resultado:
+
+                    6.2.3.1.3.1 Resultado cuantitativo:
+
+                         6.2.3.1.3.1.1 Unidad de valor:
+
+                         6.2.3.1.3.1.2 Valor:
+
+     6.2.4 Exactitud temporal:
+
+          6.2.4.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.4.1.1 Nombre de la prueba:
+
+               6.2.4.1.2 Descripción de la prueba:
+
+               6.2.4.1.3 Resultado:
+
+                    6.2.4.1.3.1 Resultado cuantitativo:
+
+                         6.2.4.1.3.1.1 Unidad de valor:
+
+                         6.2.4.1.3.1.2 Valor:
+
+     6.2.5 Exactitud temática:
+
+          6.2.5.1 Nombre del subcriterio de calidad evaluado:
+
+               6.2.5.1.1 Nombre de la prueba:
+
+               6.2.5.1.2 Descripción de la prueba:
+
+               6.2.5.1.3 Resultado:
+
+                    6.2.5.1.3.1 Resultado cuantitativo:
+
+                         6.2.5.1.3.1.1 Unidad de valor:
+
+                         6.2.5.1.3.1.2 Valor:
+
+6.3 Linaje:
+
+     6.3.1 Enunciado: La Red Nacional de Caminos es resultado de un trabajo conjunto entre el Instituto Nacional de Estadística y Geografía (INEGI), la Secretaría de Comunicaciones y Transportes (SCT) y del Instituto Mexicano del Transporte (IMT). Correspondió a la estructura descentralizada del INEGI realizar los trabajos técnicos especializados del modelado geométrico-cartográfico con topología de redes; y a los Centros SCT aportar los conocimientos y soluciones a las diferencias encontradas entre los diferentes insumos. 
+
+La RNC está sustentada en los modelos lógicos y conceptuales del estándar ISO 14825:2011 Intelligent Transport Systems y del estándar GDF versión 5.0 (Geographic Data Files). Algunos de los elementos considerados son las carreteras pavimentadas y caminos de terracería que comunican diversos destinos, como localidades urbanas y rurales, servicios de transporte como aeropuertos y puertos marítimos, sitios de interés, entre otros.
+
+El modelado de la red geométrica incluye detallar elementos del mundo real que condicionan el movimiento vehicular, como el sentido de circulación, distribuidores viales a desnivel, intersecciones a nivel y maniobras prohibidas. Todo ello para asegurar la funcionalidad del ruteo. Al interior de las localidades urbanas, a efecto de interconectar caminos y carreteras, se incluyeron vialidades principales y libramientos.
+
+Al inicio de cada año se instrumenta un proceso de investigación en fuentes oficiales para actualizar las tarifas por concepto de peaje en carreteras de cuota.
+
+Además, la SCT a través de sus centros en las entidades federativas informan a INEGI acerca de carreteras nuevas y modernizadas en cada entidad federativa, al igual de la información que se recibe de la colaboración de algunas unidades en gobiernos estatales que administran carreteras, aunado a la investigación en documentos oficiales de planeación e informes de obra carretera, para su registro en la Red Nacional de Caminos.
+
+El criterio para incluir localidades es de mayor a menor población y por cercanía a la red, cantidad condicionada al periodo de cada etapa del proyecto y capacidad instalada en cada entidad federativa.
+
+El criterio para registrar sitios de interés es de inicio, todas aquellas instalaciones de transporte como aeropuertos y puertos entre otros, los servicios a lo largo de carreteras principalmente estaciones de abastecimiento de combustible, y aquellos considerados de interés turístico sobre áreas rurales entre otros servicios e instalaciones de entretenimiento y esparcimiento.
+
+     6.3.2 Pasos del proceso:
+
+          6.3.2.1 Descripción: 1. Diseño. Se revisaron detalladamente los elementos conceptuales relativos a la construcción de las redes geométricas lo que permitió definir el modelo conceptual para la RNC, los insumos requeridos y sus características, en función de insumos disponibles y las especificaciones requeridas del estándar para ruteo, se definieron las entidades geográficas que conformarían la red (carreteras, caminos, sitios de interés, infraestructura carretera, elementos restrictivos, localidades urbanas, etc.), las etapas de elaboración, el esquema de seguimiento y control y los elementos requeridos para su implementación (software, hardware, personal, desarrollos informáticos).
+
+          6.3.2.1 Descripción: 2. Planeación. Se desglosaron las etapas y definieron los tiempos para su elaboración, se obtuvieron, analizaron y prepararon los insumos definidos.
+
+          6.3.2.1 Descripción: 3. Captación o producción.  Se diseñaron y desarrollaron documentos metodológicos, así como herramientas geomáticas que facilitan el modelado de la red geométrica, la captura de atributos, la consistencia de los elementos, el seguimiento, entre otras cosas. 
+
+El modelado consideró realizar un análisis riguroso de cada tramo carretero para interpretar sus características físicas y funcionales a fin de modelarlo en relación con los siguientes aspectos: divisiones físicas, flujos y contraflujos, intersecciones a nivel y desnivel (como puentes y distribuidores viales), datos sobre la altura de paso en puentes o túneles, el tipo de vehículos permitidos para cada tramo carretero, así como todas las maniobras prohibidas de cada crucero, retorno, glorieta, etc. También se verificaron, corrigieron o capturaron atributos en los casos donde era necesario por algún cambio de características del tramo carretero (carriles, código, etc.) y se ubicaron plazas de cobro, estaciones de combustible, cruces fronterizos y transbordadores, que fueron modelados como conexiones entre tramos de caminos. Además, se incluyeron localidades urbanas y rurales, caminos rurales, sitios de interés (zonas arqueológicas, actividades deportivas y de esparcimiento, playas, estadios, instalaciones deportivas, clubes de golf, rasgos naturales y actividades de ecoturismo), etc.
+
+Un elemento fundamental al final de la etapa de modelado fue la integración con el Inventario Nacional de Infraestructura del Transporte (INIT) edición 2011. En cuanto a la consistencia espacial, se establece realizar un comparativo visual a escala 1:4000 para detectar diferencias mayores a 10 metros. Como regla general, para la exactitud espacial se consideraron las imágenes SPOT 2011, para la complementación de atributos se contó con la participación de los Centros SCT. Se implementó una revisión integral de carreteras de cuota y plazas de cobro, consistente en verificar y en su caso corregir los siguientes aspectos: a) en las carreteras: consistencia en el nombre y el código; b) en las plazas de cobro: ubicación, modalidad de pago de peaje, tarifas de peaje; verificación del modelado de la red en los diferentes casos de entradas y salidas de los sistemas de cuota; en los sistemas de peaje cerrado se revisaron los tipos de casetas de entrada y salida y se elaboró un registro de tarifas para las plazas de cobro de tipo salida. También se elaboró el catálogo de autopistas.  
+
+Además, se incorporaron dos capas de la SCT referentes a marcas de kilometraje y puentes, las cuales requirieron de un ajuste espacial a la red, manteniendo la calidad y responsabilidad del dato la propia Secretaría.
+
+Debido a que en el medio rural existen rancherías o caserío disperso registradas como localidades rurales y su acceso es solo a través de veredas, las cuales es posible transitarlas solo caminando o en monta animal, para la edición 2018 se incluye en el dominio de valores el tipo "Vereda", implicando dicha funcionalidad de tránsito. 
+
+          6.3.2.1 Descripción: 4. Procesamiento. Se realizó la integración de la RNC en los niveles estatal, regional y nacional. Al concentrado nacional se garantizó la consistencia geométrica y de atributos (continuidad de la red en cada unión de coberturas, topología, dominios de valores, combinaciones de atributos, entre otros.), se realizaron pruebas de ruteo, posteriormente se aplicó el proceso de normalización para la generación del producto final.
+
+          6.3.2.1 Descripción: 5. Conservación. Se actualizó la documentación del producto: documento descriptivo, metadatos y diccionario de datos.
+
+          6.3.2.1 Descripción: 6. Tecnología Utilizada. Plataforma ArcGIS 10.1 a 10.6 para el modelado geométrico, con el módulo de Network Analyst para comprobación del modelado con ruteo, además la aplicación TRANSPORTE que incluye una suite de herramientas diseñadas y desarrolladas en INEGI para facilitar el modelado, la asignación de atributos, transferencia remota y carga de visualización de capas, la actividad de validación, el registro de inicio y término de actividad para el sistema de control y seguimiento, la funcionalidad e integridad de la red con sus diversos elementos, entre otras.
+
+          6.3.2.1 Descripción: 7. Control de Calidad: en cada una de las etapas del proyecto se implementaron controles de calidad que fueron aplicados por los mismos analistas que realizaron el modelado geométrico de la red; los validadores tuvieron la responsabilidad de corroborar la correcta aplicación de criterios y de las especificaciones técnicas definidos en la metodología, así como de comprobar su funcionalidad y asignación de atributos. 
+ 
+Cuando se hace la integración de las unidades de trabajo de los analistas, se hace la revisión y verificación en aspectos referentes a la continuidad de la red en cada unión de coberturas, de igual manera se aplican otras revisiones referentes a la topología, dominios de valores, combinaciones de atributos, entre otros. Así mismo, se diseñaron mecanismos y herramientas de validación automatizada para aquellos aspectos geométricos o de atributos que son factibles de revisar mediante este tipo de validación, así como instructivos, metodologías y controles del tipo Check List. 
+ 
+Además, se diseñó un esquema para observar cualquier inconsistencia, lo que permitió retroalimentar al analista y guardar un historial documentado en una base de datos de la solución de las mismas.
+
+
+
+          6.3.2.1 Descripción: 8. Mantenimiento y actualización: Con el fin de mantener actualizado el producto, se realizaron diversas acciones de investigación y de concertación que se resumen a continuación.
+1-En el periodo enero-marzo debido a los incrementos de tarifas en las carreteras de cuota por concepto de peaje, se instrumenta una investigación de los costos para cada plaza de cobro y se actualizan.
+2- Se revisa la integridad de sistemas de cuota cerrado y mixto.
+3- Se hace investigación y modelado de carreteras nuevas en cada entidad federativa y se complementa con información proporcionada por la SCT y dependencias estatales de gobierno.
+4- Se incorporan caminos rurales para conectar localidades rurales y sitios de interés, así como de algunas vialidades importantes en áreas metropolitanas.
+5- Se complementó la cobertura de puertos principales en función del comparativo utilizando archivos vectoriales de la SCT referentes a puertos y capitanías.
+
+          6.3.2.1 Descripción: CONTROL DE CALIDAD
+
+Criterio de calidad: consistencia lógica
+Subcriterio de calidad: consistencia topológica
+Ámbito de la revisión: todas las capas (líneas y puntos) correspondientes al producto Red Nacional de Caminos. 
+Tipo de inspección: completa
+Tipo de muestreo: no se aplica
+Tamaño de la muestra: no se aplica
+Porcentaje de la muestra: no se aplica
+Explicación de la revisión: por medios automatizados se identificaron y verificó que los objetos espaciales cumplieran con las reglas topológicas (espaciales: conexión y compartición) establecidas en el diccionario de datos para los distintos objetos de puntos y líneas. Los objetos que no cumplieron las reglas se relacionaron para su análisis y corrección.
+Las revisiones topológicas son: líneas sobrepuestas parcial y totalmente, líneas que se intersecan con ellas mismas; pseudonodos que indican que existe una intersección tipo conexión entre dos líneas perpendiculares pero que no existe segmentación; puntos de estructuras y plazas de cobro sobrepuestos; puntos de estructuras y plazas de cobro que no comparten con líneas de la red; maniobras prohibidas que no comparten con líneas de red; localidades no conectadas a la red sin relación lógica o justificación de su condición de aislamiento; porciones o fracciones de red desconectadas de la red general.
+Estos errores son resultado de trazos o ediciones incorrectas y cada uno requiere efectuar una corrección o aportar una justificación en el caso de localidades aisladas.
+Indicador aplicado: revisión de consistencia topológica.
+Qué expresa el indicador: con valor 1 informa que se revisó la consistencia topológica en datos con estructura vectorial (representación de punto, línea o polígono). Con valor 0 informa que no se revisó la consistencia topológica.  La revisión detecta situaciones inconsistentes con las reglas topológicas establecidas para cada producto geográfico en su diccionario de datos. Algunos casos posibles son: autointersecciones no válidas, conexiones omitidas entre rasgos geográficos, comparticiones omitidas entre rasgos geográficos, traslapes entre rasgos geográficos, áreas complejas mal formadas y rasgos geográficos duplicados. Estos errores son resultado de trazos o ediciones incorrectas y cada uno requiere efectuar una corrección o aportar una justificación.
+Resultado: 1
+Nivel de calidad de conformidad: se aplicó una tolerancia de error de 0 m. ~ 0.0000002775 m. 
+Fecha o período de realización: enero - noviembre de 2018
+Revisor: Departamento de Análisis Espacial
+Observaciones: Durante el periodo de actualización y en el que se aplica complementa la red, Analistas y Validadores cuentan con herramientas automatizadas que validan consistencia topológica, así como dominio de valores y combinación de dominios, entre otras revisiones de acuerdo a las especificaciones del producto y lo detectado se corrige de forma inmediata. En la integración final del continuo nacional en Oficinas Centrales, se corren nuevamente procesos de revisión al producto nacional de forma iterativa, detectando en la primera iteración, aproximadamente el 0.0373% (menos del 1%) de los objetos nuevos registrados en el periodo de actualización, con alguna inconsistencia topológica. La revisión comprendió tanto reglas topológicas de aplicación general como relaciones exclusivas del producto, especificadas en el diccionario de datos. Todas las inconsistencias fueron analizadas y corregidas.
+
+
+     6.3.3 Fuente:
+
+          6.3.3.1 Descripción: INFORMACIÓN BASE: Datos Topográficos escala 1:50 000 disponibles 2010-2017, ejes de calle del Marco Geoestadístico Nacional versión 5.0; Conjunto Nacional de Carreteras y vialidades edición 1.0, elaborada en 2011; Inventario Nacional de Infraestructura del Transporte (INIT) 2011 de la Secretaría de Comunicaciones y Transportes (SCT), con levantamientos en campo durante 2007 y actualización con imágenes de satélite; Archivos vectoriales de Puertos 2009 y 2011, además de Puertos y Capitanías 2010 de la SCT.
+
+          6.3.3.1 Descripción: INFORMACIÓN DE APOYO: imágenes de satélite SPOT 6 2012-2015, GEOEYE 2011-2017, SPOT 5 2008-2009 (INEGI), SPOT 5 2010-2011 (INEGI), y SPOT 5 2011-2012 no ortorrectificadas (INEGI); ortofotos 1:20 000 de diferente temporalidad y disponibles hasta 2012 (INEGI); servicios de imágenes de apoyo Digital Globe Base Map de Digital Globe con actualización de imágenes de forma dinámica por parte del proveedor, imágenes WorldView 1, 2 y QuickBird, Google Earth y BingMaps, entre otros; Atlas de Carreteras por entidad federativa 2010-2016, de SCT; Libro de Datos Viales (mapas estatales) de la Dirección General de Servicios Técnicos de SCT, 2010-2017, con los nombres de los tramos carreteros; mapas digitales de instancias estatales administradoras de carreteras o generadoras de cartografía estatal (consultadas a través de los portales en internet de los gobiernos estatales).
+
+SECCIÓN 7. Entidades y atributos:
+
+7.1 Descripción general de entidades y atributos: Entidad: Red Vial. Elemento tipo línea, representa la circulación vehicular o peatonal, tiene un elemento tipo unión en cada extremo. Estas entidades pueden contener una serie de atributos que los distinguen de otros, como tipo de vialidad, administración, jurisdicción, nombre oficial, sentido de circulación vehicular, etc.
+
+Entidad: Estructura, elemento tipo punto correspondiente a puentes o túneles. Representa una construcción relevante que es parte de la red de transporte, como un puente o túnel, pueden contener una serie de atributos que los distinguen de otros, como identificador de estructura, nombre de estructura, altura, ancho, etc.
+
+Entidad: Localidad, elemento punto, se refiere a todo lugar ocupado con una o más viviendas, las cuales pueden estar o no habitadas. Estos elementos pueden contener una serie de atributos que los distinguen de otros, como identificador único de localidad, tipo de localidad, nombre, clave geoestadística, etc.
+
+Entidad: Maniobra, elemento tipo línea, son acciones que los conductores de vehículos deben realizar a través de giros para lograr encausarse a otras vías en intersecciones a nivel. Estos elementos pueden contener una serie de atributos que los distinguen de otros, como tipo de vialidad, nombre de vialidad o tramo, código de carretera, etc.
+
+Entidad: Poste de Referencia, son elementos tipo punto en donde el organismo Sector Comunicaciones y Transportes marca el kilometraje en determinado tramo de la red carretera. Estas entidades pueden contener una serie de atributos que los distinguen de otros, como fecha de actualización y kilómetro.
+
+Entidad: Plaza de Cobro, elemento tipo punto correspondiente a aquellos sitios sobre las autopistas o puentes en donde se ubican las casetas en las que se cobran las cuotas para derecho de peaje. Estas entidades pueden contener una serie de atributos que los distinguen de otros, como Id_Plaza, Administra, etc.
+
+Entidad: Puente, elemento tipo punto correspondiente a las estructuras que permiten la comunicación vial sobre un obstáculo natural o artificial. Estas entidades pueden contener una serie de atributos que los distinguen de otros, como identificador de puente, nombre de puente, tipo de construcción, etc.
+
+Entidad: Sitio de Interés, elemento tipo punto que representa la ubicación de lugares de interés y servicios. Estas entidades pueden contener una serie de atributos que los distinguen de otros, como clase, código de clase, nombre del sitio, etc.
+
+Entidad: Transbordador, elemento tipo línea, describe una trayectoria de una ruta particular de una embarcación que conecta con dos puntos, en la cual es posible transportar vehículos. Pueden contener una serie de atributos que los distinguen de otros, como nombre de transbordador, número de transbordador, identificador de unión inicial, identificador de unión final, etc.
+
+Entidad: Unión, elemento tipo punto que corresponde a las uniones entre dos o más segmentos de línea de carretera. Delimita un elemento de la Red Vial o un Transbordador conformando una conectividad entre dos elementos tipo Unión. Estas entidades pueden contener una serie de atributos que los distinguen de otros, como identificador de unión y código de clase.
+
+Entidad: Relación lógica Puntos de interés - Red Vial, elemento tabular que registra relaciones lógicas y espaciales entre Sitios de Interés y Red Vial. Estas entidades pueden contener una serie de atributos que los distinguen de otros, como identificador de red vial e identificador de punto de interés.
+
+Entidad: Tarifas, elemento tabular que registra las tarifas de peaje en función al tipo de vehículo y al número de ejes. Estas entidades pueden contener una serie de atributos que los distinguen de otros, como identificador de plaza, identificador de plaza de cobro de entrada, nombre de plaza de cobro, etc.
+7.2 Cita del detalle de entidades y atributos: Entidad: Red Vial
+Id_Red: identificador de red vial
+Tipo_Vial: tipo de vialidad
+Nombre: nombre de vialidad
+Codigo: número de carretera
+Cond_Pav: tipo de superficie de rodamiento
+Recubri: material de superficie de rodamiento
+Carriles: número de vías vehiculares
+Estatus: estatus para servicio de ruteo
+Condicion: condición de la vialidad
+Nivel: dato para distinguir desniveles
+Peaje: pago por derecho de tránsito
+Administra: administración
+Jurisdi: jurisdicción
+Circula: sentido de circulación vehicular
+Escala_Vis: escala para visualización
+Velocidad: velocidad para ruteo
+Union_Ini: identificador de unión inicial
+Union_Fin: identificador de unión final
+Longitud: longitud en metros
+Ancho: Ancho de carretera o vialidad
+Fecha_Act: fecha de actualización
+Calirepr: calificador de posición
+
+Entidad: Estructura
+Id_Estruct: identificador de estructura
+Tipo: clasificación de estructura
+Nombre: designación oficial o conocido
+Altura: altura en metros (para túneles)
+Ancho: ancho en metros
+Fecha_Act: fecha de actualización
+Calirepr: calificador de posición
+
+Entidad: Localidad
+Id_Loc: identificador único de localidad
+Tipo: tipo de localidad
+Nombre: designación oficial
+Cve_Geo: clave geoestadística
+Fecha_Act: Fecha de actualización
+Calirepr: calificador de posición
+
+Entidad: Maniobra
+Id_Man identificador de maniobra
+Id_Union: primer punto de conexión
+Id_Red1: primer segmento de red
+Id_Red2: segundo segmento de red
+Id_Red3: tercer segmento de red
+Id_Red4: cuarto segmento de red
+Id_Red5: quinto segmento de red
+Id_Red6: sexto segmento de red
+Fecha_Act: fecha de actualización
+Calirepr: calificador de posición
+
+Entidad: Poste de Referencia
+Id_Km: Identificador marca km
+Km: kilómetro
+Fecha_Act: fecha de actualización.
+Calirepr: calificador de posición
+
+Entidad: Plaza de Cobro
+Id_Plaza: identificador de plaza de cobro
+Administra: instancia que administra
+Nombre: nombre de plaza de cobro
+Seccion: sección
+SubSeccion: subsección
+Modalidad: sistema de cobro
+Funcional: Entrada o salida para sistemas cerrados y mixtos
+Fecha_Act: fecha de actualización
+Calirepr: calificador de posición
+
+Entidad: Puente
+Id_Puente: identificador de puente
+Nombre: nombre de puente
+Tipo: Clasificación según longitud
+Material: material de construcción
+Fecha_Act: fecha de actualización
+Calirepr: calificador de posición
+
+Entidad: Sitio de Interés
+Id_PI: Identificador de punto de interés
+Clase: tipo de servicio o lugar
+Subclase: subtipo de servicio o lugar
+Nombre: sustantivo o nombre oficial
+Nombre_Alt: nombre conocido o alterno
+Fecha_Act: fecha de actualización
+Calirepr: calificador de posición
+
+Entidad: Transbordador
+Id_Trans: identificador del transbordador
+Nombre: nombre de transbordador
+Tipo: tipo de transbordador
+Escala_Vis: escala para visualización
+Velocidad: velocidad para ruteo
+Union_Ini: identificador de unión inicial
+Union_Fin: identificador de unión final
+Longitud: longitud en metros
+Fecha_Act: fecha de actualización
+Calirepr: calificador de posición
+
+Entidad: Union
+Id_Union: identificador de unión
+Calirepr: calificador de posición
+
+Entidad: Relación lógica Puntos de interés - Red Vial
+Id_Red: identificador de red vial
+Id_PI: identificador de punto de interés
+
+Entidad: Tarifas
+Id_Plaza: identificador de plaza de cobro
+Id_Plaza_E: identificador de plaza de cobro de entrada
+Nombre_Sal: nombre de plaza de cobro
+Nombre_Ent: nombre de plaza de cobro de entrada
+T_Moto: tarifa motocicleta
+T_Auto: tarifa automóvil
+T_Eje_Lig: tarifa eje excedente ligero
+T_Autobus2: tarifa autobús 2 ejes
+T_Autobus3: tarifa autobús 3 ejes
+T_Autobus4: tarifa autobús 4 ejes
+T_Camion2: tarifa camión 2 ejes
+T_Camion3: tarifa camión 3 ejes
+T_Camion4: tarifa camión 4 ejes
+T_Camion5: tarifa camión 5 ejes
+T_Camion6: tarifa camión 6 ejes
+T_Camion7: tarifa camión 7 ejes
+T_Camion8: tarifa camión 8 ejes
+T_Camion9: tarifa camión 9 ejes
+T_Eje_Pes: tarifa eje excedente pesado
+Fecha_Act: fecha de actualización
+
+SECCIÓN 8. Distribución:
+
+8.1 Restricciones de acceso: 8. Acceso al público a través de internet y los Centros de Información del Instituto Nacional de Estadística y Geografía - INEGI.
+
+8.2 Restricciones de uso: 8. Ninguna
+
+8.3 Responsabilidad de distribución: El INEGI no se hace responsable por el uso que se le dé a los datos.
+
+8.4 Formato de distribución:
+
+     8.4.1 Nombre del formato: Shapefile, dbase
+
+     8.4.2 Versión del formato: No aplica
+
+
+SECCIÓN 9. Información del contacto para los metadatos:
+
+9.1 Nombre del estándar de metadatos: ISO 19115 Información Geográfica - Metadatos (Norma Técnica para Metadatos).
+
+9.2 Versión de la norma de metadatos: 2003 (1.0).
+
+9.3 Idioma de los Metadatos: ES - Español.
+
+9.4 Punto de contacto para los Metadatos: 
+
+     9.4.1 Nombre de la persona de contacto: Lic. Rafael Arrioja Urzúa.
+
+     9.4.2 Nombre de la organización: Instituto Nacional de Estadística y Geografía - INEGI.
+
+     9.4.3 Puesto del contacto: Jefe del Departamento de Administración de Metadatos.
+
+     9.4.4 Teléfono: (449)9105300 Ext. 1750 y 5631.
+
+     9.4.5 Fax: 
+
+     9.4.6 Dirección: Avenida Héroe de Nacozari Sur 2301. Fraccionamiento Jardines del Parque, entre Calle INEGI, Avenida del Lago y Avenida Paseo de las Garzas.
+
+     9.4.7 Ciudad: Aguascalientes.
+
+     9.4.8 Área administrativa: Aguascalientes.
+
+     9.4.9 Código postal: 20276
+
+     9.4.10 País: México
+
+     9.4.11 Dirección de correo electrónico del contacto: rafael.arrioja@inegi.org.mx
+
+     9.4.12 Rol:   7. Punto de contacto: Parte que puede ser contactada para informarse sobre el recurso o adquisición del mismo.
+
+9.5 Fecha de los metadatos: 2018-12-15
+
+9.6 Conjunto de caracteres:   6. 8859parte1: ISO/IEC 8859-1, Tecnologías de la Información - Conjuntos de caracteres gráficos codificados de 8-bit por byte - Parte 1: Alfabeto Latino No.1.
+
